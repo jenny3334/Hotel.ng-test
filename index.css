@@ -1,0 +1,122 @@
+.phase1{
+    border: 1px solid #00aeff;
+    background-color: #00aeff;
+    height: 50px;
+}
+.hl{
+    border: 1px solid white;
+    background-color: white;
+    height: 48px;
+    position: relative;
+    bottom: 10px;
+}
+.main-cont{
+    border: 1px solid darkblue;
+    background-color: darkblue;
+    width: 270px;
+    height: 37px;
+    border-radius: 15px;
+}
+.pix img{
+    width: 40px;
+    height:40px;
+    border-radius: 15px;
+}
+.contact i{
+    color: white;
+}
+/* .flex.cont{
+    display:flex;
+} */
+.niger img{
+    width: 20px;
+    height: 20px;
+}
+.phase2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.phase4{
+    display: flex;
+    padding: 10px;
+}
+.flex-cont{
+    display: flex;
+}
+.general-cont{
+    padding: 0px 10px 0px 10px;
+    cursor: pointer;
+}
+.whats{
+    padding: 0px 10px 0px 10px;
+}
+.niger{
+    padding: 10px 10px 0px 10px;
+
+}
+.account{
+    padding: 10px 10px 0px 10px;
+}
+.contact-box{
+    border: 1px solid red;
+    background-color: red;
+    width: fit-content;
+    /* position: relative; */
+}
+.contact-box i{
+    color:black;
+}
+.contact-box2{
+    line-height: 40px;
+    padding: 10px 10px 10px 10px;
+}
+.contact-box2 img{
+    width:15%;
+    /* padding: 0px; */
+}
+.contact-box5 button{
+    border: #00aeff;
+    color: white;
+    background-color: #00aeff;
+    border-radius: 5px;
+    width:80px;
+    height: 40px;
+}
+.general-cont:hover  .contact-box{
+    display: block;
+    /* z-index: 1; */
+}
+
+.contact-box{
+    display: none;
+
+    /* z-index: 1; */
+    /* display: none; */
+}
+.niger:hover .contact-box{
+    display: block;
+}
+.account:hover .contact-box{
+    display: block;
+}
+.phase3 img{
+    padding: 5px 0px 0px 60px;
+}
+.contact-box{
+    position: absolute;
+}
+.contact-box3{
+    border: 1px solid red;
+    background-color: red;
+    width: fit-content;
+    position: absolute;
+    right: 70px;
+    /* bottom:  20px; */
+}
+.contact-box5{
+    border: 1px solid red;
+    background-color: red;
+    width: fit-content;
+    position: absolute;
+}
