@@ -1,26 +1,34 @@
+body{
+    margin: 0;
+    background-color: yellow;
+}
+
+
 .phase1{
     border: 1px solid #00aeff;
     background-color: #00aeff;
-    height: 50px;
+   /* padding: 10px 0px 0px 0px; */
+;
 }
 .hl{
     border: 1px solid white;
     background-color: white;
-    height: 48px;
     position: relative;
-    bottom: 10px;
+    height: 65px;
+    /* bottom: 0px; */
+    top: 0px;
 }
 .main-cont{
     border: 1px solid darkblue;
     background-color: darkblue;
-    width: 270px;
+    width: 210px;
     height: 37px;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 .pix img{
     width: 40px;
     height:40px;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 .contact i{
     color: white;
@@ -28,10 +36,10 @@
 /* .flex.cont{
     display:flex;
 } */
-.niger img{
+/* .niger img{
     width: 20px;
     height: 20px;
-}
+} */
 .phase2{
     display: flex;
     flex-direction: row;
@@ -39,7 +47,7 @@
 }
 .phase4{
     display: flex;
-    padding: 10px;
+
 }
 .flex-cont{
     display: flex;
@@ -48,8 +56,8 @@
     padding: 0px 10px 0px 10px;
     cursor: pointer;
 }
-.whats{
-    padding: 0px 10px 0px 10px;
+.whats img{
+  padding: 0px 0px 0px 60px;
 }
 .niger{
     padding: 10px 10px 0px 10px;
@@ -59,10 +67,11 @@
     padding: 10px 10px 0px 10px;
 }
 .contact-box{
-    border: 1px solid red;
-    background-color: red;
+    border: 1px solid white;
+    background-color: white;
     width: fit-content;
-    /* position: relative; */
+    position: absolute;
+    bottom: 680px;
 }
 .contact-box i{
     color:black;
@@ -90,33 +99,76 @@
 
 .contact-box{
     display: none;
-
-    /* z-index: 1; */
-    /* display: none; */
 }
-.niger:hover .contact-box{
+.niger:hover .contact-box3{
     display: block;
 }
-.account:hover .contact-box{
+.account:hover .contact-box5{
     display: block;
 }
 .phase3 img{
-    padding: 5px 0px 0px 60px;
+    padding: 15px 0px 0px 60px;
 }
 .contact-box{
     position: absolute;
 }
 .contact-box3{
-    border: 1px solid red;
-    background-color: red;
+    border: 1px solid white;
+    background-color: white;
     width: fit-content;
     position: absolute;
     right: 70px;
+    bottom: 655px;
+    line-height: 40px;
+    padding: 10px 10px 10px 10px;
+    bottom: 645px;
     /* bottom:  20px; */
 }
 .contact-box5{
-    border: 1px solid red;
-    background-color: red;
+    border: 1px solid white;
+    background-color: white;
     width: fit-content;
     position: absolute;
+    right: 2px;
+    line-height: 40px;
+    padding: 10px 10px 10px 10px;
+    bottom: 724px;
 }
+.contact-box3{
+    display: none;
+}
+.contact-box5{
+    display: none;
+}
+.niger1 img{
+    width: 40px;
+    height: 20px;
+}
+.niger2 img{
+    width: 15px;
+}
+.account2{
+    color: white;
+}
+.word1{
+    color: #00aeff;
+    font-size: 10px;
+}
+.word2{
+    color: white;
+    font-size:15px ;
+}
+.whats{
+    padding: 15px 10px 0px 0px;
+}
+.general-cont{
+    padding: 15px 10px 0px 10px;
+}
+.niger{
+    padding: 25px 10px 0px 10px;
+}
+.account{
+    padding: 15px 60px 0px 10px;
+}
+
+
