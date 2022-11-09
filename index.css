@@ -170,5 +170,12 @@ body{
 .account{
     padding: 15px 60px 0px 10px;
 }
+.phone{
+    padding: 10px 0px 10px 0px;
+
+}
 
 
+.account i{
+    color:white;
+}
